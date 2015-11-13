@@ -3,7 +3,6 @@
 def palindrome?(sentence)
   # Write your code here
   nospace_sentence = sentence.gsub(" ","").downcase
-  p nospace_sentence
   if nospace_sentence == nospace_sentence.reverse
     true
   end
